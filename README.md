@@ -1,4 +1,4 @@
-# DeepSeek Harness (DSH) Windows Auto Runner 🚀
+# DeepSeek Harness (DSH) Windows Auto Runner 
 
 [English](#english) | [繁體中文](#繁體中文)
 
@@ -11,16 +11,16 @@
 **DeepSeek Harness (DSH) Windows Auto Runner** 是一個專為 Windows 使用者設計的輕量常駐與快速啟動套件。
 
 解決以往使用 DeepSeek Harness 時的痛點：
-- ❌ 每次開機都要手動開啟 PowerShell / CMD 輸入 `npx @deepseek-ai/dsh web`。
-- ❌ 每次重新啟動都要忍受漫長的伺服器冷啟動等待。
-- ❌ 黑色終端視窗必須一直開著，一旦誤關服務就會斷線。
+- 每次開機都要手動開啟 PowerShell / CMD 輸入 `npx @deepseek-ai/dsh web`。
+- 每次重新啟動都要忍受漫長的伺服器冷啟動等待。
+- 黑色終端視窗必須一直開著，一旦誤關服務就會斷線。
 
 **本方案帶來的體驗：**
-- ✅ **開機無感背景常駐**：開機自動在背景靜默預熱 DSH，完全無 CMD 黑視窗、無通知打擾。
-- ✅ **極低資源佔用**：背景常駐僅 ~60MB RAM，待機 CPU 佔用 0%。
-- ✅ **桌面圖示 0 秒秒開**：雙擊桌面「DeepSeek Harness」圖示，直接以獨立視窗模式秒開 Web GUI。
-- ✅ **智慧喚醒與防重複**：若服務被意外關閉，點擊圖示會自動在後台喚醒並開啟視窗，絕不彈出多餘視窗或報錯。
-- ✅ **環境變數與 PATH 隔離**：自動掛載 Node.js 與 npm 路徑，徹底杜絕 Windows 開機啟動時因 `System32` 預設路徑造成的找不到指令問題。
+- **開機無感背景常駐**：開機自動在背景靜默預熱 DSH，完全無 CMD 黑視窗、無通知打擾。
+- **極低資源佔用**：背景常駐僅 ~60MB RAM，待機 CPU 佔用 0%。
+- **桌面圖示 0 秒秒開**：雙擊桌面「DeepSeek Harness」圖示，直接以獨立視窗模式秒開 Web GUI。
+- **智慧喚醒與防重複**：若服務被意外關閉，點擊圖示會自動在後台喚醒並開啟視窗，絕不彈出多餘視窗或報錯。
+- **環境變數與 PATH 隔離**：自動掛載 Node.js 與 npm 路徑，徹底杜絕 Windows 開機啟動時因 `System32` 預設路徑造成的找不到指令問題。
 
 ---
 
@@ -78,16 +78,16 @@
 **DeepSeek Harness (DSH) Windows Auto Runner** is a lightweight daemon and trigger utility tailored for DeepSeek Harness on Windows.
 
 It solves common pain points:
-- ❌ Manually running `npx @deepseek-ai/dsh web` in PowerShell/CMD every time.
-- ❌ Enduring lengthy cold-start delays on every restart.
-- ❌ Keeping an annoying black console window open 24/7.
+- Manually running `npx @deepseek-ai/dsh web` in PowerShell/CMD every time.
+- Enduring lengthy cold-start delays on every restart.
+- Keeping an annoying black console window open 24/7.
 
 **Key Features:**
-- ✅ **Silent Boot Background Daemon**: Automatically launches DSH in the background on Windows startup without popping up any command-prompt windows.
-- ✅ **Ultra-low Resource Footprint**: Consumes only ~60MB RAM with 0% CPU usage in standby mode.
-- ✅ **Instant Desktop App Experience**: Double-click the desktop shortcut to launch the Web GUI in standalone app window mode instantly.
-- ✅ **Smart Wake & Single Instance**: If the service was stopped, clicking the shortcut smoothly wakes it up without opening redundant windows.
-- ✅ **Robust PATH & CWD Handling**: Eliminates PATH missing or `System32` directory drift issues during Windows startup.
+- **Silent Boot Background Daemon**: Automatically launches DSH in the background on Windows startup without popping up any command-prompt windows.
+- **Ultra-low Resource Footprint**: Consumes only ~60MB RAM with 0% CPU usage in standby mode.
+- **Instant Desktop App Experience**: Double-click the desktop shortcut to launch the Web GUI in standalone app window mode instantly.
+- **Smart Wake & Single Instance**: If the service was stopped, clicking the shortcut smoothly wakes it up without opening redundant windows.
+- **Robust PATH & CWD Handling**: Eliminates PATH missing or `System32` directory drift issues during Windows startup.
 
 ---
 
