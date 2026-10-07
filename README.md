@@ -43,6 +43,7 @@
 ---
 
 ### 前置需求
+> **適用版本為v0.1.5之前** ，在之後的更新已經被官方給取代
 1. 已安裝 [Node.js](https://nodejs.org/) (建議 v18 以上)。
 2. 已安裝 Google Chrome 或 Microsoft Edge 瀏覽器。
 3. （選用，推薦）全域安裝 DeepSeek Harness：
